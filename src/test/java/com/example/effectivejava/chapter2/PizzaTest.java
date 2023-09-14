@@ -1,9 +1,9 @@
-package com.example.effectivejava.item1;
+package com.example.effectivejava.chapter2;
 
 import org.junit.jupiter.api.Test;
 
-import static com.example.effectivejava.item1.NyPizza.Size.LARGE;
-import static com.example.effectivejava.item1.Pizza.Topping.*;
+import static com.example.effectivejava.chapter2.NyPizza.Size.LARGE;
+import static com.example.effectivejava.chapter2.Pizza.Topping.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PizzaTest {

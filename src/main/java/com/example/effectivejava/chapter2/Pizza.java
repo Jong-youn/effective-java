@@ -1,4 +1,4 @@
-package com.example.effectivejava.item1;
+package com.example.effectivejava.chapter2;
 
 import java.util.EnumSet;
 import java.util.Objects;
