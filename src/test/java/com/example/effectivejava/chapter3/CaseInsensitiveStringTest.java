@@ -1,13 +1,11 @@
 package com.example.effectivejava.chapter3;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Date;
 import java.sql.Timestamp;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class CaseInsensitiveStringTest {
 
