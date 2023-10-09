@@ -20,4 +20,15 @@ class NestedClassTest {
         inner.getCode();
 //        new Outer().new Inner().getCode();
     }
+
+    @Test
+    void integerTest() {
+        Integer i = 5;
+        System.out.println(System.identityHashCode(i));
+        i+=6;
+        System.out.println(System.identityHashCode(i));
+
+        String s = new String("string1");
+
+    }
 }

@@ -12,6 +12,9 @@ public class Rectangle implements FigureV1{
 
     @Override
     public double area() {
+        Singer wp = new Wp();
+        Integer i = 5;
+        i+=6;
         return length*width;
     }
 }
