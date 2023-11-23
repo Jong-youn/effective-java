@@ -11,6 +11,11 @@ class NestedClassTest {
 //        OuterStatic outerStatic = new OuterStatic();
         OuterStatic.InnerStatic innerStatic = new OuterStatic.InnerStatic();
         innerStatic.getCode();
+
+        Outer.StaticInner staticInner = new Outer.StaticInner();
+        staticInner.getCode();
+        // Inner - Static
+        // static
     }
 
     @Test
